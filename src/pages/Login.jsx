@@ -56,6 +56,14 @@ localStorage.setItem(
       >
         Login
       </button>
+
+      <p className="mt-4 text-sm text-zinc-400">
+  Don’t have an account?{" "}
+  <a href="/register" className="text-red-500 hover:underline">
+    Register here
+  </a>
+</p>
+
     </div>
   );
 }

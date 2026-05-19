@@ -63,12 +63,21 @@ useEffect(() => {
     </button>
   </div>
 ) : (
+  <div className="flex items-center gap-3">
+  <Link
+    to="/register"
+    className="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 rounded-lg text-white font-medium transition"
+  >
+    Register
+  </Link>
+
   <Link
     to="/login"
     className="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-lg text-white font-medium transition"
   >
     Login
   </Link>
+</div>
 )}
     </div>
   </div>
